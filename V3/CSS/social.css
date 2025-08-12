@@ -3,32 +3,7 @@
     gap: 10px;
     margin: 5px;
     border-top: 2px solid black;
+     width: 40px; 
+    height: 40px;
 }
 
-.socials img.facebook {
-    margin-top: 10px;
-    width: 40px; 
-    height: 40px;
-    margin: 10px 0;
-}
-
-.socials img.instagram {
-    padding-top: 10px;
-    width: 40px; 
-    height: 40px;
-    margin: 10px 0;
-}
-
-.socials img.linkedin {
-     padding-top: 10px;
-    width: 40px; 
-    height: 40px;
-    margin: 10px 0;
-}
-
-.socials img.x {
-     padding-top: 10px;
-    width: 40px; 
-    height: 40px;
-    margin: 10px 0;
-}

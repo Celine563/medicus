@@ -1,8 +1,6 @@
-.home {   
-    padding-left: 20px;
-}
 
 .appointments {
+  position: relative;
     display: block;
     margin-left: 70px;
 }
@@ -20,6 +18,7 @@
 .top {
     display: flex;
     align-items: center;
+    padding-left: 60px;
     gap: 50px; 
     margin: 20px;
     border-bottom: 2px solid black;

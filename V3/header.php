@@ -13,9 +13,9 @@ require_once 'Util/connection.php';
 <body>
 
 <nav class="top">
-    <div class="home">
+   
     <h1><a href="HomePage.php">Medicus</a></h1>
-    </div>
+    
 
     <div class="dropdown">
         <div class="appointments">

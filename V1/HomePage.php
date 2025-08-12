@@ -1,67 +1,52 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="CSS/HomeStyle.css">
-
+    <meta charset="UTF-8">
+    <title>Medicus</title>
+    <link rel="stylesheet" type="text/css" href="CSS/HomeStyle.css">
 </head>
-
 <body>
 
-
-<div class="categories">
+<nav class="categories">
     <h1><a href="HomePage.php">Medicus</a></h1>
-    
-    <div class="dropdown">
-    <h3>Appointments</h3>
-    <ul class="dropdown-menu">
-        <li><a href="#">X-ray</a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-    </ul>
-</div>
-
 
     <div class="dropdown">
-        <h3>Services</h3>
+        <h3>Appointments</h3>
         <ul class="dropdown-menu">
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-        </ul>
-    </div>
-
-    <div class="dropdown">
-        <h3>About us</h3>
-        <ul class="dropdown-menu">
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <li><a href="xray.php">X-ray</a></li>
+            <li><a href="blood_test.php">Blood Test</a></li>
+            <li><a href="consultation.php">Consultation</a></li>
         </ul>
     </div>
 
     <div class="dropdown">
         <h3>Services</h3>
         <ul class="dropdown-menu">
-            <li><a href="#"></a></li>
-            <li><a href="#">/a></li>
+            <li><a href="general_care.php">General Care</a></li>
+            <li><a href="emergency.php">Emergency</a></li>
+            <li><a href="specialists.php">Specialists</a></li>
         </ul>
     </div>
 
     <div class="dropdown">
-        <h3>Contact</h3>
+        <h3>About Us</h3>
         <ul class="dropdown-menu">
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <li><a href="about.php">Our Story</a></li>
+            <li><a href="team.php">Meet the Team</a></li>
         </ul>
     </div>
 
+    <div class="dropdown">
+        <h3>Contact Us</h3>
+        <ul class="dropdown-menu">
+            <li><a href="contact.php">Contact Form</a></li>
+            <li><a href="location.php">Location</a></li>
+        </ul>
+    </div>
 
-    <img src="Images/Search.png" alt="search" class="search">
-    <img src="Images/Account.png" alt="account" class="account">
-</div>
-
-
-
+    <a href="search.php"><img src="Images/Search.png" alt="search" class="search"></a>
+    <a href="account.php"><img src="Images/Account.png" alt="account" class="account"></a>
+</nav>
 
 </body>
 </html>

@@ -25,6 +25,10 @@ require_once 'Util/connection.php';
 
 <img src="Images/doctor.png" alt="doctor" class="doctor">
 
+<div class="number">
+<p>CALL US: <a href="tel:+353822179795" class="nu">+353 822179795</a></p>
+</div>
+
 <br>
 <br>
 <?php require 'footer.php'; ?>

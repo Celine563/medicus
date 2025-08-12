@@ -26,3 +26,15 @@
     text-decoration: underline;
     color: #A58A89;
 }
+
+.number {
+    text-align: center;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+
+}
+
+.nu {
+    display: block;
+    text-decoration: underline;
+}

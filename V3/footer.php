@@ -21,7 +21,7 @@
         <h3>Get in Touch</h3>
         <p>Medicus Medical Center</p>
         <p>123 Health Street, Cityville</p>
-        <p><a href="tel:+1234567890">+1 234 567 890</a></p>
+        <p><a href="tel:+1234567890">+353 822179795</a></p>
         <p><a href="mailto:info@medicus.com">info@medicus.com</a></p>
     </div>
 

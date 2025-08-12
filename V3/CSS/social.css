@@ -2,11 +2,10 @@
     display: flex;
     gap: 10px;
     border-top: 2px solid black;
-     width: 40px; 
-    height: 40px;
+    padding-top: 10px;
 }
 
-.socials img.facebook {
-    padding-top: 50px;
-    
+.socials img {
+    width: 40px;
+    height: 40px;
 }

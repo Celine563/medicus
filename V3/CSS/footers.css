@@ -1,27 +1,15 @@
-
-
 .bottom {
   border-top: 2px solid black;
-  display: block;
+  display: flex;
   gap: 120px;
   text-align: left;
-
 }
 
-.bottom a {
-  text-decoration: none;
-  color: black;
-
+.bottom h3 {
+  margin-right: 40px;
 }
 
-.newsletter {
-    display: flex;
-    margin-left: 120px;
-
+.footer-headings {
+  display: flex;
+  gap: 60px;
 }
-
-.acess {
-    display: flex;
-    margin-left: 120px;
-}
-

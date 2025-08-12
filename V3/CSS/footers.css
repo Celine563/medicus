@@ -1,15 +1,19 @@
 .bottom {
   border-top: 2px solid black;
+  padding: 20px 120px;
+}
+
+.footer {
   display: flex;
   gap: 120px;
-  text-align: left;
+  margin-bottom: 15px;
+   display: flex;
+  flex-direction: column;
 }
 
-.bottom h3 {
-  margin-right: 40px;
-}
 
-.footer-headings {
-  display: flex;
-  gap: 60px;
+.footer a {
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: black;
 }

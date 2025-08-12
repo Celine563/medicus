@@ -16,12 +16,14 @@ require_once 'Util/connection.php';
     <h1><a href="HomePage.php">Medicus</a></h1>
 
     <div class="dropdown">
+        <div class="appointments">
         <h3>Appointments</h3>
         <ul class="menu">
             <li><a href="xray.php">X-ray</a></li>
             <li><a href="blood_test.php">Blood Test</a></li>
             <li><a href="consultation.php">Consultation</a></li>
         </ul>
+        </div>
     </div>
 
     <div class="dropdown">

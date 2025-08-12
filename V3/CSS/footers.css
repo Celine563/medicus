@@ -1,18 +1,16 @@
 .bottom {
   border-top: 2px solid black;
-  padding: 20px 120px;
-}
-
-.footer {
+  padding-left: 50px;
   display: flex;
+}
+
+.bottom {
   gap: 120px;
-  margin-bottom: 15px;
-   display: flex;
-  flex-direction: column;
+  text-decoration: none;
 }
 
 
-.footer a {
+.bottom a {
   margin-bottom: 8px;
   text-decoration: none;
   color: black;

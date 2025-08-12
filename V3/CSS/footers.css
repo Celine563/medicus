@@ -15,8 +15,13 @@
 }
 
 .newsletter {
-    display: block;
+    display: flex;
     margin-left: 120px;
 
+}
+
+.acess {
+    display: flex;
+    margin-left: 120px;
 }
 

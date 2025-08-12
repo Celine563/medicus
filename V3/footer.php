@@ -18,7 +18,7 @@
     </div>
 
     <div class="acess">
-      <h3>Quick Links</h3>
+      <h3>Quick Access</h3>
       <a href="about.php">About Us</a>
       <br>
         <a href="services.php">Services</a>

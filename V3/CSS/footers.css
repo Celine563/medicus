@@ -1,27 +1,18 @@
-
-
 .bottom {
   border-top: 2px solid black;
   display: flex;
-  gap: 120px;
+  justify-content: space-between;
   text-align: left;
+  padding: 20px 120px;
+}
 
+.bottom > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .bottom a {
   text-decoration: none;
   color: black;
-
 }
-
-.newsletter {
-    display: flex;
-    margin-left: 120px;
-
-}
-
-.acess {
-    display: flex;
-    margin-left: 120px;
-}
-

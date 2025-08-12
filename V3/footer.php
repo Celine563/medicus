@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<link rel="stylesheet" type="text/css" href="CSS/footer.css">
-</head>
-<body>
-
 <footer class="bottom">
+
+    <div class="newsletter">
+        <h3>Stay Updated</h3>
+        <form action="subscribe.php" method="POST">
+            <input type="email" name="email" placeholder="Your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p>Health tips and updates straight to your inbox.</p>
+    </div>
 
     <div class="contact">
         <h3>Get in Touch</h3>
@@ -15,7 +17,7 @@
         <p><a href="mailto:info@medicus.com">info@medicus.com</a></p>
     </div>
 
-    <div class="quick-links">
+    <div class="acess">
         <h3>Quick Links</h3>
         <a href="about.php">About Us</a><br>
         <a href="services.php">Services</a><br>
@@ -31,16 +33,4 @@
         <a href="terms.php">Terms of Service</a>
     </div>
 
-    <div class="newsletter">
-        <h3>Stay Updated</h3>
-        <form action="subscribe.php" method="POST">
-            <input type="email" name="email" placeholder="Your email" required>
-            <button type="submit">Subscribe</button>
-        </form>
-        <p>Health tips and updates straight to your inbox.</p>
-    </div>
-
 </footer>
-
-</body>
-</html>

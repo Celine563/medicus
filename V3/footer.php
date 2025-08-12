@@ -18,18 +18,24 @@
     </div>
 
     <div class="acess">
-        <h3>Quick Links</h3>
-        <a href="about.php">About Us</a><br>
-        <a href="services.php">Services</a><br>
-        <a href="appointments.php">Book Appointment</a><br>
-        <a href="contact.php">Contact</a><br>
+      <h3>Quick Links</h3>
+      <a href="about.php">About Us</a>
+      <br>
+        <a href="services.php">Services</a>
+        <br>
+        <a href="appointments.php">Book Appointment</a>
+        <br>
+        <a href="contact.php">Contact</a>
+        <br>
         <a href="faq.php">FAQ</a>
     </div>
 
     <div class="resources">
         <h3>Patient Info</h3>
-        <a href="patient-portal.php">Patient Portal</a><br>
-        <a href="privacy-policy.php">Privacy Policy</a><br>
+        <a href="patient.php">Patient Portal</a>
+        <br>
+      <a href="privacypolicy.php">Privacy Policy</a>
+      <br>
         <a href="terms.php">Terms of Service</a>
     </div>
 

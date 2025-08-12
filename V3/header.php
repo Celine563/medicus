@@ -30,6 +30,7 @@ require_once 'Util/connection.php';
             <li><a href="general_care.php">General Care</a></li>
             <li><a href="emergency.php">Emergency</a></li>
             <li><a href="specialists.php">Specialists</a></li>
+            <li><a href="online.php">Online Prescription</a></li>
         </ul>
     </div>
 

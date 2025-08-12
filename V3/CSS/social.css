@@ -1,11 +1,18 @@
 .socials {
-    display: flex;
-    gap: 10px;
-    border-top: 2px solid black;
-    padding-top: 10px;
+  display: flex;
+  gap: 15px;
+  border-top: 2px solid black;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.socials a {
+  display: inline-block;
 }
 
 .socials img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  vertical-align: middle;
 }

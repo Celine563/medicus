@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+</head>
+<body>
+
+
 <footer class="bottom">
 
     <div class="newsletter">
@@ -20,23 +28,20 @@
     <div class="acess">
       <h3>Quick Access</h3>
       <a href="about.php">About Us</a>
-      <br>
-        <a href="services.php">Services</a>
-        <br>
-        <a href="appointments.php">Book Appointment</a>
-        <br>
-        <a href="contact.php">Contact</a>
-        <br>
-        <a href="faq.php">FAQ</a>
+      <a href="services.php">Services</a>
+      <a href="appointments.php">Book Appointment</a>
+      <a href="contact.php">Contact</a>
+      <a href="faq.php">FAQ</a>
     </div>
 
     <div class="resources">
         <h3>Patient Info</h3>
         <a href="patient.php">Patient Portal</a>
-        <br>
-      <a href="privacypolicy.php">Privacy Policy</a>
-      <br>
+        <a href="privacypolicy.php">Privacy Policy</a>
         <a href="terms.php">Terms of Service</a>
     </div>
 
 </footer>
+
+</body>
+</html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Medicus</title>
-    <link rel="stylesheet" type="text/css" href="CSS/HomeStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/header.css">
 </head>
 <body>
 

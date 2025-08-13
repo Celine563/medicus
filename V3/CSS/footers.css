@@ -1,21 +1,17 @@
 .bottom {
   display: flex;
-  gap: 120px;
   border-top: 2px solid black;
   padding-left: 50px;
+
+}
+
+.bottom {
+  gap: 120px;
   text-decoration: none;
 }
 
-.newsletter,
-.contact,
-.acess,
-.resources {
-  display: flex;
-  flex-direction: column;
-}
 
 .bottom a {
-  display: block;
   margin-bottom: 8px;
   text-decoration: none;
   color: black;

@@ -39,7 +39,24 @@
     text-decoration: underline;
 }
 
-.onlineDoc {
-    height: 50px;
-    width: 50px;
+.services {
+    text-decoration: none;
+    color: black;
+}
+
+.Services{
+    margin-left: 50px;
+    margin-bottom: 100px;
+    color: black;
+}
+
+.call {
+    text-decoration: underline;
+    color: #373E4F;
+    font-size: 25px;
+}
+
+.Services img {
+   height: 300px;
+    width: 300px;
 }

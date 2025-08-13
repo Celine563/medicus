@@ -10,6 +10,7 @@
     <img src="Images/Facebook.png" alt="facebook" class="facebook">
   </a>
   <a href="https://www.instagram.com/">
+    <img src="Images/Instagram.png" alt="instagram" class="instagram">
     
   </a>
   <a href="https://www.linkedin.com/">

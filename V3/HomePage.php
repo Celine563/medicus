@@ -29,18 +29,50 @@ require_once 'Util/connection.php';
 <p>CALL US: <a href="tel:+353822179795" class="nu">+353 822179795</a></p>
 </div>
 
-<h1>Our Services</h1>
-<div class="services">
-  <div class="onlineDoc">
-    <img src="Images/onlineDoc.png" alt="Online Doctor" class="onlineDoc">
-    <h3>Online Doctor</h3>
-    <button class="call">Call Us</button>
-    </div>
+<div class="Services">
+  <h1>Our Services:</h1>
+  <div class="servicesRow">
+    <br>
+    <br>
+
+    <a href="onlineDoc.php" class="servicess">
+      <div class="Services">
+        <img src="Images/onlineDoc.png" alt="Online Doctor">
+        <h3>Online Doctor</h3>
+        <div class="call">Call Us</div>
+      </div>
+    </a>
+
+    <a href="callDoc.php" class="services">
+      <div class="Services">
+        <img src="Images/callADoc.png" alt="Call a doctor">
+        <h3>Call a Doctor</h3>
+        <div class="call">Call Us</div>
+      </div>
+    </a>
+
+      <a href="OnlinePer.php" class="services">
+      <div class="Services">
+        <img src="Images/OnlinePer.png" alt="Online Prescription">
+        <h3>Online Prescription</h3>
+        <div class="call">Call Us</div>
+      </div>
+    </a>
+
+          <a href="ScheudApp.php" class="services">
+      <div class="Services">
+        <img src="Images/scheueleAappointment.png" alt="Schedule an appointment">
+        <h3>Schedule am appointment</h3>
+        <div class="call">Call Us</div>
+      </div>
+    </a>
+
 
 
 
 <br>
 <br>
+
 <?php require 'footer.php'; ?>
 <?php require 'social.php'; ?>
 

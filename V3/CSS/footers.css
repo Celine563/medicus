@@ -5,20 +5,14 @@
   padding-left: 50px;
   text-decoration: none;
 }
-.newsletter,
-.contact,
-.acess,
-.resources {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .newsletter a,
 .contact a,
 .acess a,
 .resources a {
   display: block;
-  margin-bottom: 8px;
+  padding-bottom: 5px;
   text-decoration: none;
   color: black;
 }

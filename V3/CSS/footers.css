@@ -6,15 +6,16 @@
   text-decoration: none;
 }
 
-.acess,
-.resources,
+.newsletter,
 .contact,
-.newsletter {
+.acess,
+.resources {
   display: flex;
   flex-direction: column;
 }
 
 .bottom a {
+  display: block;
   margin-bottom: 8px;
   text-decoration: none;
   color: black;

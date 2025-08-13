@@ -77,6 +77,7 @@ require_once 'Util/connection.php';
 <br>
 
 <?php require 'footer.php'; ?>
+<br>
 <?php require 'social.php'; ?>
 
 </body>

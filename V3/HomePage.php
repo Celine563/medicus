@@ -29,9 +29,12 @@ require_once 'Util/connection.php';
 <p>CALL US: <a href="tel:+353822179795" class="nu">+353 822179795</a></p>
 </div>
 
+<br>
+<br>
+
 <div class="Services">
   <h1>Our Services:</h1>
-  <div class="servicesRow">
+  <div class="serv">
     <br>
     <br>
 

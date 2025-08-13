@@ -1,14 +1,18 @@
 .bottom {
+  display: flex;
+  gap: 120px;
   border-top: 2px solid black;
   padding-left: 50px;
-  display: flex;
-}
-
-.bottom {
-  gap: 120px;
   text-decoration: none;
 }
 
+.acess,
+.resources,
+.contact,
+.newsletter {
+  display: flex;
+  flex-direction: column;
+}
 
 .bottom a {
   margin-bottom: 8px;

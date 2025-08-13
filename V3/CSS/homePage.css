@@ -39,24 +39,38 @@
     text-decoration: underline;
 }
 
-.services {
-    text-decoration: none;
-    color: black;
+.serv{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  text-decoration: none;
+  color: black;
 }
 
-.Services{
-    margin-left: 50px;
-    margin-bottom: 100px;
-    color: black;
+.services {
+  text-decoration: none;
+  color: black;
+}
+
+.servicess {
+  text-decoration: none;
+  color: black;
+}
+
+.Services {
+  margin-left: 20px;
+  margin-bottom: 100px;
+  color: black;
 }
 
 .call {
-    text-decoration: underline;
-    color: #373E4F;
-    font-size: 25px;
+  text-decoration: underline;
+  color: #373E4F;
+  font-size: 25px;
 }
 
 .Services img {
-   height: 300px;
-    width: 300px;
+  height: 300px;
+  width: 300px;
 }
+

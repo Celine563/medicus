@@ -42,7 +42,6 @@
 .serv{
   display: flex;
   gap: 40px;
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
   text-decoration: none;
   color: black;
 }

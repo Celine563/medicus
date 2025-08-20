@@ -1,5 +1,5 @@
 .doctor {
-    display: block;
+    display: flex;
     margin: 40px auto;
     border-radius: 600px;
     width: 500px;
@@ -35,12 +35,12 @@
 }
 
 .nu {
-    display: block;
+    display: flex;
     text-decoration: underline;
 }
 
 .serv{
-  display: flex;
+  display: block;
   gap: 40px;
   text-decoration: none;
   color: black;
@@ -58,7 +58,7 @@
 
 .Services {
   margin-left: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   color: black;
 }
 

@@ -69,7 +69,8 @@ require_once 'Util/connection.php';
         <div class="call">Call Us</div>
       </div>
     </a>
-
+ </div>
+  </div>
 
 
 

@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 
 class Connection {
     private static $host = "localhost";
-    private static $dbname = "Eterna";
+    private static $dbname = "Medicus";
     private static $username = "root";
     private static $password = "root";
 

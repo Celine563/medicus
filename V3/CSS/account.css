@@ -10,22 +10,23 @@
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
       display: flex;   
-      font-size: 20px;
       margin-left: 450px;
 
     }
 
-    .text{
-        margin-left: 30px;
+    .title{
+        margin-left: 250px;
         font-family: Arial, sans-serif;
-        font-size: 20px;
+        font-size: 40px;
         color: black;
         margin-bottom: 200px;
     }
 
 .login {
     display: flex;
-    gap: 15px;             
+    gap: 15px;  
+    flex-direction: column;  
        margin-top: 200px;
     margin-bottom: 30px;
+
 }

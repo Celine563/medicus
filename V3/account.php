@@ -1,20 +1,23 @@
+<?php
+require_once 'Util/connection.php';
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="CSS/HomeStyle.css">
+  <link rel="stylesheet" type="text/css" href="CSS/homePage.css">
 </head>
 <body>
 
 <?php require 'header.php'; ?>
 
-<br>
-<br>
+
 
 <?php require 'footer.php'; ?>
 <br>
+<br>
 <?php require 'social.php'; ?>
-
-
 
 </body>
 </html>

@@ -1,15 +1,31 @@
     body {
-      height: 100px; 
-      display: flex;    
+      display: block;   
       background-color:white;
     }
 
     .box {
-      width: 300px;
-      height: 200px;
+      width: 600px;
+      height: 400px;
       background-color: white;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      display: flex;
+      display: flex;   
       font-size: 20px;
+      margin-left: 450px;
+
     }
+
+    .text{
+        margin-left: 30px;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        color: black;
+        margin-bottom: 200px;
+    }
+
+.login {
+    display: flex;
+    gap: 15px;             
+       margin-top: 200px;
+    margin-bottom: 30px;
+}

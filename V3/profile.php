@@ -15,7 +15,7 @@ $role = $_SESSION['role'];
     <meta charset="UTF-8">
     <title>Logout</title>
     <link rel="stylesheet" type="text/css" href="CSS/account.css"> 
-    
+    <link rel="stylesheet" type="text/css" href="CSS/homePage.css">
 </head>
 <body>
 

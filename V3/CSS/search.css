@@ -1,3 +1,10 @@
+.welcome{
+  margin-left: 300px;
+  text-align: center;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
 .search select,
 .search input {
     margin-left: 600px;
@@ -10,3 +17,7 @@
   border-radius: 8px;
   box-sizing: border-box;
 }
+
+
+
+  

@@ -4,7 +4,11 @@ $loggedIn = isset($_SESSION['user_id']);
 $username = $loggedIn ? $_SESSION['username'] : '';
 ?>
 
-
+<div class="welcome">
+ <?php if ($loggedIn): ?>
+        <p>Welcome, <?= htmlspecialchars($username) ?>!</p>
+    <?php endif; ?>
+</div>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,6 +29,7 @@ $username = $loggedIn ? $_SESSION['username'] : '';
             <li><a href="xray.php">X-ray</a></li>
             <li><a href="blood_test.php">Blood Test</a></li>
             <li><a href="consultation.php">Consultation</a></li>
+            <li><a href="Appbooked.php">Booked appointments</a></li>
         </ul>
     </div>
 
@@ -57,7 +62,6 @@ $username = $loggedIn ? $_SESSION['username'] : '';
     <a href="search.php"><img src="Images/Search.png" alt="search" class="search"></a>
 <?php if ($loggedIn): ?>
     <a href="profile.php"><img src="Images/Account.png" alt="account" class="account"></a>
-    <p class="welcome">Welcome, <?= htmlspecialchars($username) ?>!</p>
 <?php else: ?>
     <a href="account.php"><img src="Images/Account.png" alt="account" class="account"></a>
 <?php endif; ?>

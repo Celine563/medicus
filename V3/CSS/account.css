@@ -5,12 +5,12 @@
 
     .box {
       width: 600px;
-      height: 400px;
+      height: 600px;
       background-color: white;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
       display: flex;   
-      margin-left: 450px;
+      margin-left: 500px;
 
     }
 
@@ -20,13 +20,24 @@
         font-size: 40px;
         color: black;
         margin-bottom: 200px;
+
     }
+.login form input {
+  width: 350px;       
+  display: flex;
+  height: 50px;        
+  font-size: 18px;     
+  padding: 10px;        
+  margin-bottom: 15px;  
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+}
 
 .login {
-    display: flex;
-    gap: 15px;  
-    flex-direction: column;  
-       margin-top: 200px;
-    margin-bottom: 30px;
-
+  display: flex;
+  gap: 15px;              
+  margin-top: -50px;
+  margin-left: -250px;
+  align-items: center;   
 }

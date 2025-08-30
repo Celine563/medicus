@@ -54,13 +54,12 @@
     cursor: pointer;
 }
 
-.register {
-    margin-top: 450px;
-    margin-left: -400px;
-    display: flex;
+.Register {
+  margin-top: 100px;
+margin-left: -270px;
+    display: block;
 align-items: center;
   font-size: 16px;    
-  background-color: darkolivegreen;
   color: white;
   cursor: pointer;
 }
@@ -91,3 +90,21 @@ align-items: center;
 .Register button:hover {
   background-color: #0056b3; 
 }
+
+.success {
+  margin-left: 30px;
+  margin-top: 30px;
+  color: green;
+  font-weight: bold;
+    text-align: center;
+  font-size: 18px;
+}
+.error {
+    margin-left: 30px;
+  margin-top: 30px;
+  color: red;
+  font-weight: bold;
+    text-align: center;
+  font-size: 18px;
+}
+

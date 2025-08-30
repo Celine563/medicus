@@ -2,17 +2,17 @@
 session_start();
 require_once 'Util/connection.php'; 
 
-$success = "";
-$error   = "";
+$success = null;
+$error   = null;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $firstname = $_POST['firstname'] ?? '';
-    $lastname  = $_POST['lastname'] ?? '';
-    $username  = $_POST['username'] ?? ''; 
+    $firstname = trim($_POST['firstname'] ?? '');
+    $lastname  = trim($_POST['lastname'] ?? '');
+    $username  = trim($_POST['username'] ?? ''); 
     $password  = $_POST['password'] ?? '';
     $type      = $_POST['type'] ?? '';
 
-    if (!empty($username) && !empty($password) && !empty($type) && !empty($firstname) && !empty($lastname)) {
+    if ($firstname && $lastname && $username && $password && $type) {
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
         try {
@@ -22,22 +22,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 INSERT INTO Users (username, email, password_hash, first_name, last_name, role) 
                 VALUES (?, ?, ?, ?, ?, ?)
             ");
-
-            if ($stmt->execute([$username, $username, $hashed_password, $firstname, $lastname, $type])) {
-                $success = "🎉 Congrats, you registered successfully! Redirecting to login...";
-                header("refresh:3;url=login.php"); 
-                $error = "Database insert failed.";
-            }
+            $stmt->execute([$username, $username, $hashed_password, $firstname, $lastname, $type]);
+           $success = " ";
+            header("refresh:3;url=Account.php"); 
         } 
         catch (PDOException $e) {
             $error = "Database error: " . $e->getMessage();
         }
-    } 
-    else {
-        $error = "Please fill in all required fields.";
     }
 }
 ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,11 +47,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <div class="box">
   <h1 class="title">REGISTER</h1>
 
+
   <?php if ($success): ?>
-      <p style="color: green; font-weight: bold;"><?= $success ?></p>
+      <p class="success"><?= $success ?> Registered</p>
   <?php elseif ($error): ?>
-      <p style="color: red; font-weight: bold;"><?= $error ?></p>
+      <p class="error"><?= $error ?>Try again</p>
   <?php endif; ?>
+
 
   <div class="Register">
     <form action="Register.php" method="POST">
@@ -69,7 +67,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
       <input type="text" name="firstname" placeholder="First name" required>
       <input type="text" name="lastname" placeholder="Last name" required>
-      <input type="email" name="username" placeholder="Your email" required>
+      <input type="text" name="username" placeholder="Your username" required>
+      <input type="email" name="email" placeholder="Your email" required>
       <input type="password" name="password" placeholder="Your password" required>
 
       <button type="submit" class="submit">Register</button>

@@ -37,7 +37,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
 <?php require 'header.php'; ?>
-<br><br>
+<br>
+<br>
 
 <div class="box">
   <h1 class="title">LOGIN</h1>
@@ -59,7 +60,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </div>
 </div>
 
-<br><br>
+<br>
+<br>
 <?php require 'footer.php'; ?>
 <br><br>
 <?php require 'social.php'; ?>

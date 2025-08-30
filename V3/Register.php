@@ -1,5 +1,11 @@
 <?php
+session_start();
 require_once 'Util/connection.php';
+$full_name = $_POST['firstname'] . ' ' . $_POST['lastname'];
+$type = $_POST['type'];
+
+$stmt = $conn->prepare("INSERT INTO Users (username, password_hash, full_name, role) VALUES (?, ?, ?, ?)");
+$stmt->bind_param("ssss", $username, $hashed_password, $full_name, $type);
 
 ?>
 

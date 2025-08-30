@@ -39,14 +39,14 @@
   gap: 15px;              
   margin-top: -50px;
   margin-left: -250px;
-  align-items: center;   
+  align-items: center;  
 }
 
 .submit {
   width: 150px;         
   height: 50px;        
   font-size: 18px;     
-  background-color: #27567D; 
+background-color: #007BFF; 
   color: white;        
   border: none;        
   border-radius: 8px;      
@@ -63,4 +63,14 @@ align-items: center;
   background-color: darkolivegreen;
   color: white;
   cursor: pointer;
+ 
+
+}
+
+.submit:hover {
+  background-color: #0056b3;
+}
+
+.register:hover {
+  background-color: darkgreen;
 }

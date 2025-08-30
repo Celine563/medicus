@@ -15,7 +15,7 @@
     }
 
     .title{
-        margin-left: 180px;
+        margin-left: 200px;
         font-family: Arial, sans-serif;
         font-size: 40px;
         color: black;
@@ -38,7 +38,7 @@
   display: flex;
   gap: 15px;              
   margin-top: -50px;
-  margin-left: -250px;
+  margin-left: -260px;
   align-items: center;   
 }
 
@@ -86,7 +86,6 @@ align-items: center;
   background-color: #007BFF;
   color: white;
   cursor: pointer;        
-  transition: 0.3s;
 }
 
 .Register button:hover {

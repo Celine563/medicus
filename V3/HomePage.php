@@ -12,6 +12,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 ?>
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,7 +33,7 @@ if (!isset($_SESSION['user_id'])) {
  9:00 AM to 10:00 PM. Whether it's day or night, your well-being is always our priority. </p>
 </div>
 
-<img src="Images/doctor.png" alt="doctor" class="doctor">
+        <img src="Util/img_upload.php?id=6" alt="Doctor" class="doctor">
 
 <div class="number">
 <p>CALL US: <a href="tel:+353822179795" class="nu">+353 822179795</a></p>
@@ -47,9 +48,10 @@ if (!isset($_SESSION['user_id'])) {
     <br>
     <br>
 
+
     <a href="onlineDoc.php" class="servicess">
       <div class="Services">
-        <img src="Images/onlineDoc.png" alt="Online Doctor">
+        <img src="Util/img_upload.php?id=2" alt="Online doctor">
         <h3>Online Doctor</h3>
         <div class="call">Call Us</div>
       </div>
@@ -57,7 +59,7 @@ if (!isset($_SESSION['user_id'])) {
 
     <a href="callDoc.php" class="services">
       <div class="Services">
-        <img src="Images/callADoc.png" alt="Call a doctor">
+        <img src="Util/img_upload.php?id=1" alt="Call a doctor">
         <h3>Call a Doctor</h3>
         <div class="call">Call Us</div>
       </div>
@@ -65,7 +67,7 @@ if (!isset($_SESSION['user_id'])) {
 
       <a href="OnlinePer.php" class="services">
       <div class="Services">
-        <img src="Images/OnlinePer.png" alt="Online Prescription">
+        <img src="Util/img_upload.php?id=3" alt="Online perescription">
         <h3>Online Prescription</h3>
         <div class="call">Call Us</div>
       </div>
@@ -73,7 +75,7 @@ if (!isset($_SESSION['user_id'])) {
 
           <a href="ScheudApp.php" class="services">
       <div class="Services">
-        <img src="Images/scheueleAappointment.png" alt="Schedule an appointment">
+        <img src="Util/img_upload.php?id=4" alt="Schedule an appointment">
         <h3>Schedule am appointment</h3>
         <div class="call">Call Us</div>
       </div>

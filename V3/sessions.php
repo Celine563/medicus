@@ -27,6 +27,7 @@ $role = $_SESSION['role'];
             <?php endif; ?>
             <li><a href="logout.php">Logout</a></li>
             <li><a href="HomePage.php">Home Page</a></li>
+            <li><a href="Appbooked.php">Appointments booked</a></li>
         </ul>
     </nav>
 </body>

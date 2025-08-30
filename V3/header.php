@@ -1,7 +1,10 @@
 <?php
-require_once 'Util/connection.php';
 
+$loggedIn = isset($_SESSION['user_id']);
+$username = $loggedIn ? $_SESSION['username'] : '';
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +14,6 @@ require_once 'Util/connection.php';
     <link rel="stylesheet" type="text/css" href="CSS/header.css">
 </head>
 <body>
-
 <nav class="top">
    
     <h1><a href="HomePage.php">Medicus</a></h1>
@@ -53,7 +55,14 @@ require_once 'Util/connection.php';
     </div>
 
     <a href="search.php"><img src="Images/Search.png" alt="search" class="search"></a>
+<?php if ($loggedIn): ?>
+    <a href="profile.php"><img src="Images/Account.png" alt="account" class="account"></a>
+    <p class="welcome">Welcome, <?= htmlspecialchars($username) ?>!</p>
+<?php else: ?>
     <a href="account.php"><img src="Images/Account.png" alt="account" class="account"></a>
+<?php endif; ?>
+
+
 </nav>
 
 </body>

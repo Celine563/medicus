@@ -1,6 +1,15 @@
 <?php
-require_once 'Util/connection.php';
+session_start();
+$loggedIn = isset($_SESSION['user_id']);
+$username = $_SESSION['username'] ?? '';
 
+if (!isset($_SESSION['user_id'])) {
+    $loggedIn = false;
+} else {
+    $loggedIn = true;
+    $username = $_SESSION['username'];
+    $role = $_SESSION['role'];
+}
 ?>
 
 <!DOCTYPE html>

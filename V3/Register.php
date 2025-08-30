@@ -1,13 +1,38 @@
 <?php
 session_start();
-require_once 'Util/connection.php';
-$full_name = $_POST['firstname'] . ' ' . $_POST['lastname'];
-$type = $_POST['type'];
+require_once 'Util/connection.php'; 
 
-$stmt = $conn->prepare("INSERT INTO Users (username, password_hash, full_name, role) VALUES (?, ?, ?, ?)");
-$stmt->bind_param("ssss", $username, $hashed_password, $full_name, $type);
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $firstname = $_POST['firstname'] ?? '';
+    $lastname  = $_POST['lastname'] ?? '';
+    $full_name = trim($firstname . ' ' . $lastname);
+    $type      = $_POST['type'] ?? '';
+    $username  = $_POST['username'] ?? '';
+    $password  = $_POST['password'] ?? '';
 
+    if (!empty($username) && !empty($password) && !empty($type)) {
+        $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
+        try {
+            $pdo = Connection::getConnection();
+
+            $stmt = $pdo->prepare("INSERT INTO Users (username, password_hash, full_name, role) VALUES (?, ?, ?, ?)");
+            if ($stmt->execute([$username, $hashed_password, $full_name, $type])) {
+                header("Location: account.php");
+                exit();
+            } else {
+                $error = "Database insert failed.";
+            }
+        } catch (PDOException $e) {
+            $error = "Database error: " . $e->getMessage();
+        }
+    } else {
+        $error = "Please fill in all required fields.";
+    }
+}
 ?>
+
+
 
 <!DOCTYPE html>
 <html>

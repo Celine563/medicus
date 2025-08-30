@@ -1,6 +1,10 @@
 <?php
 session_start();
-session_destroy();
-header("Location: Account.php");
-exit();
- 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $_SESSION = [];
+    session_unset();
+    session_destroy();
+    header("Location: account.php"); 
+    exit();
+}
+?>

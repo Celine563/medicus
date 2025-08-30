@@ -51,13 +51,12 @@ if (password_verify($password, $user['password_hash'])) {
             <input type="text" name="username" placeholder="Your email" required>
         <input type="password" name="password" placeholder="Your password" required>
         <button type="submit" class="submit">Login</button>
-        </form>
-        <?php if(isset($error)) { echo "<p style='color:red;'>$error</p>"; } ?>
-    
+        </form>  
 
 <form action="Register.php" method="POST">
     <button type="submit" class="register">Register</button>
     </form>
+</div>
 </div>
 
 <br>

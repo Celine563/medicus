@@ -21,9 +21,13 @@ require_once 'Util/connection.php';
       <form action="login.php" method="POST">
               <input type="username" name="username" placeholder="Your email" required>
               <input type="password" name="password" placeholder="Your password" required>
-              <button type="submit">Subscribe</button>
+              <button type="submit" class="submit">Login</button>
           </form>
           </div>
+
+           <form action="register.php" method="POST">
+              <button type="register" class="register">Register</button>
+          </form>
 
 
   </div>

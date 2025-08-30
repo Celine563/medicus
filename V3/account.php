@@ -25,7 +25,7 @@ require_once 'Util/connection.php';
           </form>
           </div>
 
-           <form action="register.php" method="POST">
+           <form action="Register.php" method="POST">
               <button type="register" class="register">Register</button>
           </form>
 

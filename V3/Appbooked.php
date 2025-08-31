@@ -8,7 +8,6 @@ if (!isset($_SESSION['user_id'])) {
 
 $username = $_SESSION['username'] ?? '';
 $role = $_SESSION['role'] ?? '';
-
 if (!isset($_SESSION['appointments'])) {
     $_SESSION['appointments'] = [];
 }
@@ -25,7 +24,9 @@ if (isset($_GET['remove'])) {
             unset($_SESSION['appointments'][$removeIndex]);
             $_SESSION['appointments'] = array_values($_SESSION['appointments']);
         }
-    } else {
+    } 
+    else 
+      {
         echo "<p style='color:red;'>You do not have permission to remove appointments.</p>";
     }
 }
@@ -41,18 +42,18 @@ if (isset($_GET['remove'])) {
     <?php if (empty($_SESSION['appointments'])): ?>
         <p>No appointments booked yet.</p>
     <?php else: ?>
-        <ul>
-            <?php foreach ($_SESSION['appointments'] as $index => $service): ?>
-                <li>
-                    <?php echo htmlspecialchars($service); ?>
-                    <?php if ($role === 'admin' || $role === 'doctor'): ?>
-                        <a href="Appbooked.php?remove=<?php echo $index; ?>">Remove</a>
-                    <?php endif; ?>
-                </li>
+      <ul>
+        <?php foreach ($_SESSION['appointments'] as $index => $service): ?>
+          <li>
+            <?php echo htmlspecialchars($service); ?>
+            <?php if ($role === 'admin' || $role === 'doctor'): ?>
+              <a href="Appbooked.php?remove=<?php echo $index; ?>">Remove</a>
+              <?php endif; ?>
+            </li>
             <?php endforeach; ?>
-        </ul>
-    <?php endif; ?>
-
-    <a href="HomePage.php">Back to Home</a>
+          </ul>
+          <?php endif; ?>
+          
+<a href="HomePage.php">Back to Home</a>
 </body>
 </html>

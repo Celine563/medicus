@@ -19,10 +19,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['role'] = $user['role']; 
             header("Location: sessions.php");
             exit();
-        } else {
+        }
+         else 
+            {
             $error = "Invalid password!";
         }
-    } else {
+    } 
+    else 
+        {
         $error = "User not found!";
     }
 }
@@ -44,11 +48,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <h1 class="title">LOGIN</h1>
 
   <div class="login">
-      <form action="account.php" method="POST">
-          <input type="text" name="username" placeholder="Your username" required>
-          <input type="password" name="password" placeholder="Your password" required>
-          <button type="submit" class="submit">Login</button>
-      </form>  
+    <form action="account.php" method="POST">
+        <input type="text" name="username" placeholder="Your username" required>
+        <input type="password" name="password" placeholder="Your password" required>
+        <button type="submit" class="submit">Login</button>
+    </form>  
 
       <?php if(isset($error)): ?>
         <p style="color:red; text-align:center;"><?= htmlspecialchars($error) ?></p>

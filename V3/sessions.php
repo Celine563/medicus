@@ -18,7 +18,7 @@ $role = $_SESSION['role'];
 <body>
     <h1>Welcome, <?php echo htmlspecialchars($username); ?>!</h1>
     <p>Your role: <?php echo htmlspecialchars($role); ?></p>
-
+    
     <nav>
         <ul>
             <li><a href="Account.php">Profile</a></li>

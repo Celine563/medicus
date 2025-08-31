@@ -5,7 +5,9 @@ $username = $_SESSION['username'] ?? '';
 
 if (!isset($_SESSION['user_id'])) {
     $loggedIn = false;
-} else {
+} 
+else 
+  {
     $loggedIn = true;
     $username = $_SESSION['username'];
     $role = $_SESSION['role'];

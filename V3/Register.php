@@ -14,7 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($firstname && $lastname && $username && $password && $type) {
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-
         try {
             $pdo = Connection::getConnection();
 
@@ -28,9 +27,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         } 
         catch (PDOException $e) {
             $error = "Database error: " . $e->getMessage();
-        }
+          }
     }
-}
+  }
 ?>
 
 

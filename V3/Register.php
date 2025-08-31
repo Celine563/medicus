@@ -8,6 +8,7 @@ $error   = null;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $firstname = trim($_POST['firstname'] ?? '');
     $lastname  = trim($_POST['lastname'] ?? '');
+    $email     = trim($_POST['email'] ?? '');
     $username  = trim($_POST['username'] ?? ''); 
     $password  = $_POST['password'] ?? '';
     $type      = $_POST['type'] ?? '';
@@ -21,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 INSERT INTO Users (username, email, password_hash, first_name, last_name, role) 
                 VALUES (?, ?, ?, ?, ?, ?)
             ");
-            $stmt->execute([$username, $username, $hashed_password, $firstname, $lastname, $type]);
+            $stmt->execute([$username, $email, $hashed_password, $firstname, $lastname, $type]);
            $success = " ";
             header("refresh:3;url=Account.php"); 
         } 

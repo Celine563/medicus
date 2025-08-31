@@ -27,18 +27,18 @@
 
       <div class="acess">
         <h3>Quick Access</h3>
-        <a href="about.php">About Us</a>
-        <a href="services.php">Services</a>
+        <a href="whoops.php>About Us</a>
+        <a href="whoops.php">Services</a>
         <a href="Appbooked.php">Book Appointment</a>
-        <a href="contact.php">Contact</a>
-        <a href="faq.php">FAQ</a>
+        <a href="whoops.php">Contact</a>
+        <a href="whoops.php">FAQ</a>
       </div>
 
       <div class="resources">
           <h3>Patient Info</h3>
-          <a href="patient.php">Patient Portal</a>
+          <a href="whoops.php">Patient Portal</a>
           <a href="privacypolicy.php">Privacy Policy</a>
-          <a href="terms.php">Terms of Service</a>
+          <a href="whoops.php">Terms of Service</a>
       </div>
 
   </footer>

@@ -51,7 +51,7 @@ else
     <br>
 
 
-    <a href="onlineDoc.php" class="servicess">
+    <a href="whoops.php" class="servicess">
       <div class="Services">
         <img src="Util/img_upload.php?id=2" alt="Online doctor">
         <h3>Online Doctor</h3>
@@ -59,7 +59,7 @@ else
       </div>
     </a>
 
-    <a href="callDoc.php" class="services">
+    <a href="whoops.php" class="services">
       <div class="Services">
         <img src="Util/img_upload.php?id=1" alt="Call a doctor">
         <h3>Call a Doctor</h3>
@@ -67,7 +67,7 @@ else
       </div>
     </a>
 
-      <a href="OnlinePer.php" class="services">
+      <a href="whoops.php" class="services">
       <div class="Services">
         <img src="Util/img_upload.php?id=3" alt="Online perescription">
         <h3>Online Prescription</h3>
@@ -75,7 +75,7 @@ else
       </div>
     </a>
 
-          <a href="ScheudApp.php" class="services">
+          <a href="whoops.php" class="services">
       <div class="Services">
         <img src="Util/img_upload.php?id=4" alt="Schedule an appointment">
         <h3>Schedule am appointment</h3>

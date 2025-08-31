@@ -36,26 +36,26 @@ $username = $loggedIn ? $_SESSION['username'] : '';
     <div class="dropdown">
         <h3>Services</h3>
         <ul class="menu">
-            <li><a href="general_care.php">General Care</a></li>
-            <li><a href="emergency.php">Emergency</a></li>
-            <li><a href="specialists.php">Specialists</a></li>
-            <li><a href="online.php">Online Prescription</a></li>
+            <li><a href="whoops.php">General Care</a></li>
+            <li><a href="whoops.php">Emergency</a></li>
+            <li><a href="whoops.php">Specialists</a></li>
+            <li><a href="whoops.php">Online Prescription</a></li>
         </ul>
     </div>
 
     <div class="dropdown">
         <h3>About Us</h3>
         <ul class="menu">
-            <li><a href="about.php">Our Story</a></li>
-            <li><a href="team.php">Meet the Team</a></li>
+            <li><a href="whoops.php">Our Story</a></li>
+            <li><a href="whoops.php">Meet the Team</a></li>
         </ul>
     </div>
 
     <div class="dropdown">
         <h3>Contact Us</h3>
         <ul class="menu">
-            <li><a href="contact.php">Contact Form</a></li>
-            <li><a href="location.php">Location</a></li>
+            <li><a href="whoops.php">Contact Form</a></li>
+            <li><a href="whoops.php">Location</a></li>
         </ul>
     </div>
 

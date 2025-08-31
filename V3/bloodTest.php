@@ -29,7 +29,7 @@ else
     <img src="Util/img_upload.php?id=8" alt="blood test" class="image">
 <div class="left">
         <h1 class="text">Blood test</h1>
-    <p>X-rays are a form of electromagnetic radiation used <br> in medicine to create images of the inside of the body, <br> such as bones, tissues, and organs</p>
+    <p>A blood test is a medical procedure where a sample of blood is taken and analyzed in a lab to assess a person's health.</p>
 <div class="addToApp">
     <?php if ($loggedIn): ?>
         <form action="Appbooked.php" method="post">

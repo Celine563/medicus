@@ -29,7 +29,7 @@ else
     <img src="Util/img_upload.php?id=9" alt="Consultation" class="image">
 <div class="left">
         <h1 class="text">Consultation</h1>
-    <p>X-rays are a form of electromagnetic radiation used <br> in medicine to create images of the inside of the body, <br> such as bones, tissues, and organs</p>
+    <p>a meeting in which a doctor talks to a person about a problem, question, etc.</p>
 <div class="addToApp">
     <?php if ($loggedIn): ?>
         <form action="Appbooked.php" method="post">

@@ -27,7 +27,6 @@ class Connection {
         } catch (PDOException $e) {
             die("Connection failed: " . $e->getMessage());
         }
-
         return self::$pdo;
     }
 

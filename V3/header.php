@@ -27,7 +27,7 @@ $username = $loggedIn ? $_SESSION['username'] : '';
         <h3>Appointments</h3>
         <ul class="menu">
             <li><a href="X-ray.php">X-ray</a></li>
-            <li><a href="blood_test.php">Blood Test</a></li>
+            <li><a href="bloodTest.php">Blood Test</a></li>
             <li><a href="consultation.php">Consultation</a></li>
             <li><a href="Appbooked.php">Booked appointments</a></li>
         </ul>

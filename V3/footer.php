@@ -29,7 +29,7 @@
         <h3>Quick Access</h3>
         <a href="about.php">About Us</a>
         <a href="services.php">Services</a>
-        <a href="appointments.php">Book Appointment</a>
+        <a href="Appbooked.php">Book Appointment</a>
         <a href="contact.php">Contact</a>
         <a href="faq.php">FAQ</a>
       </div>

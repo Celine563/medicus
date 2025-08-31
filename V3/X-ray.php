@@ -29,7 +29,14 @@ if (!isset($_SESSION['user_id'])) {
         <h1 class="text">X-ray</h1>
     <p>X-rays are a form of electromagnetic radiation used <br> in medicine to create images of the inside of the body, <br> such as bones, tissues, and organs</p>
 <div class="addToApp">
-    <a href="appointments.php" class="button">Book an X-ray</a>
+    <?php if ($loggedIn): ?>
+        <form action="Appbooked.php" method="post">
+            <input type="hidden" name="service" value="X-ray">
+            <button type="submit" class="button">Book an X-ray</button>
+        </form>
+    <?php else: ?>
+        <a href="login.php?redirect=Account.php" class="button">Book an X-ray</a>
+    <?php endif; ?>
 </div>
 </div>
 </div>
